@@ -63,6 +63,22 @@ body {
   font-size: 1rem;
 }
 
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transaction-table th {
+  background-color: #f3f4f6;
+}
+
 /* Button styles */
 .button {
   background-color: #9b67e7;

@@ -1,8 +1,11 @@
 import React from "react";
 import "./App.css";
-import CreateGroupForm from "./components/CreateGroupForm";
+import CreateGroupForm from "./components/Group components/CreateGroupForm";
 import Dashboard from "./components/Dashboard";
-import GroupList from "./components/GroupList";
+import GroupList from "./components/Group components/GroupList";
+import Login from "./components/User components/Login";
+import Signup from "./components/User components/Signup";
+
 
 function App() {
   return (
@@ -19,6 +22,8 @@ function App() {
 
       <footer>
         <CreateGroupForm />
+        <Login />
+        <Signup />
       </footer>
     </div>
   );
